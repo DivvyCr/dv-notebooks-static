@@ -1,0 +1,19 @@
+{
+  "name": "dv-notebooks-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "prebuild": "stylus src/_resources/all.css -o src/main.css",
+    "build": "npx @11ty/eleventy",
+    "test": "npx @11ty/eleventy --serve"
+  },
+  "author": "Divvy C.",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5"
+  }
+}

@@ -1,0 +1,14 @@
+# IntelliJ:
+.idea/
+
+# NodeJS:
+node_modules/
+
+# Firebase:
+.firebaserc
+.firebase/
+firebase.json
+
+# Custom:
+out/
+src/*.css

@@ -1,0 +1,6 @@
+{
+  "layout": "notebook.njk",
+  "tags": "swe",
+  "notebookTitle": "Software Engineering",
+  "notebookDescription": "An overview of conventional methodologies in modern software engineering."
+}
